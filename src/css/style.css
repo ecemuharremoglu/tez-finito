@@ -1,0 +1,94 @@
+/*.Google.Front */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+#top-side{
+    background-image:url(../image/nasa-Q1p7bh3SHj8-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+
+}
+.nav-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.nav-item {
+    width: auto;
+    margin: auto;
+    padding: 6px;
+    list-style-type: none;
+}
+.nav-link {
+    transition: 400ms !important;
+    padding: 10px;
+}
+.nav-link:hover{
+    transition: 400ms;
+    border-radius: 25px;
+    background-color: black !important;
+}
+img {
+    width: 100%;
+}
+body{
+    color: var(--text-color)
+}
+.container{
+    max-width: 1068px;
+    margin: auto;
+    width: 100%;
+}
+section{
+    padding: 4rem 0 3rem;
+}
+header{
+    top: 0;
+    width: 100%;
+    background: var(--bg-color);
+    box-shadow: 0 1px 4px hsl(0 4% 15% / 10%);
+    }
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.logo{
+    font-size: 1.1rem;
+    color:var(--text-color);
+    font-weight: 400;
+}
+#cart-icon{
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+.section-title{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+.shop{
+    margin-top: 2rem;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.my-modal-btn {
+    float: right;
+}

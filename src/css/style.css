@@ -11,6 +11,10 @@
     list-style: none;
     text-decoration: none;
 }
+body {
+    margin: 2% !important;
+    text-align: center !important;
+}
 #top-side{
     background-image:url(../image/nasa-Q1p7bh3SHj8-unsplash.jpg);
     background-repeat: no-repeat;
@@ -89,6 +93,7 @@ header{
 
 }
 
-.my-modal-btn {
+.btn-offer {
+    background-color: brown;
     float: right;
 }
